@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Amplitude</string>
+    <string name="hollywood">Hollywood</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="enter_movie_name">Enter Movie Name</string>
+    <string name="intro">Discover Movies
+                         With One Touch
+                            </string>
+    <string name="movie_name">movie name displayed here</string>
+
+</resources>
+

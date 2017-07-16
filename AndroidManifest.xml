@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.movies.movieshub"
+     >
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher1"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <!-- Splash screen -->
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main activity -->
+        <activity
+            android:name="com.example.movies.movieshub.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.example.movies.movieshub.SearchPage"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+
+        </activity>
+
+
+
+
+        <activity
+            android:name="com.example.movies.movieshub.List_View"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.movies.movieshub.next"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

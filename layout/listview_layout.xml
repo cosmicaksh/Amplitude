@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="82dp"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  ListRow Left sied Thumbnail image -->
+
+<LinearLayout
+    android:layout_width="80dp"
+    android:layout_height="70dp"
+    android:id="@+id/linearLayout">
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentStart="true" />
+
+
+
+</LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/moviename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#111845"
+        android:text="Movie Name"
+        android:typeface="serif"
+        android:textSize="12dip"
+        android:textStyle="bold|italic"/>
+
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moviename"
+        android:text="Year"
+        android:textColor="#0c0c0c"
+        android:textSize="10dip"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
